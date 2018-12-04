@@ -11,11 +11,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/booking": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
+    "/services": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/barbers": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
