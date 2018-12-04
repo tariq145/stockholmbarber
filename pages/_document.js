@@ -28,7 +28,13 @@ export default class MyDocument extends Document {
                 text-align: center;
                 text-transform: uppercase;
                 margin: 0;
-                margin-bottom: 20px;         
+                margin-bottom: 40px;         
+              }
+
+              a {
+                font-family: Anton, serif;
+                font-size: 18px;
+                font-weight: 200;
               }
                } /* custom! */`}</style>
         </Head>

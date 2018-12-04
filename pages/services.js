@@ -16,6 +16,9 @@ const services = () => {
                   exercitationem quia aperiam necessitatibus, eligendi
                   repudiandae, neque earum aliquam est ducimus itaque obcaecati!
                   Unde aspernatur repudiandae, modi ut ex possimus aliquid.
+                  <p>
+                    <strong>Tid</strong> 50min
+                  </p>
                 </div>
                 <div className="price">350 kr</div>
               </div>
@@ -47,7 +50,7 @@ const services = () => {
         #services {
           min-height: 1000px;
           position: relative;
-          background-image: url(/static/imgs/index-header.jpg);
+          background-image: url(/static/imgs/6.jpg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -82,14 +85,13 @@ const services = () => {
         }
 
         .service-container {
-          padding: 100px 0;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
         }
 
         .service {
-          padding: 10px 20px;
+          padding: 20px 40px;
           flex-basis: 100%;
           max-width: 800px;
           background: #f7f7f7;

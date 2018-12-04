@@ -3,6 +3,9 @@ import Link from "next/link";
 const Nav = () => (
   <div id="nav">
     <div className="nav-item-container">
+      <Link href="/">
+        <a>Hem</a>
+      </Link>
       <Link href="/barbers">
         <a>Barberare</a>
       </Link>
@@ -16,7 +19,7 @@ const Nav = () => (
     <style jsx>{`
       #nav {
         position: absolute;
-        z-index: 1;
+        z-index: 3;
         width: 100%;
         height: 60px;
       }

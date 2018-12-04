@@ -5,8 +5,11 @@ import Link from "next/link";
 const App = () => (
   <Layout>
     <div id="index">
-      <section id="index-header" />
+      <header id="index-header">
+        <img src="/static/imgs/logo-white.png" alt="" />
+      </header>
       <section id="index-about">
+        <img src="/static/imgs/knife.png" alt="" />
         <div className="container">
           <h1>Stockholm Barber Company</h1>
 
@@ -86,16 +89,24 @@ const App = () => (
         #index-header {
           position: relative;
           width: 100%;
-          height: calc(100vh - 160px);
+          height: 100vh;
           background-image: url(/static/imgs/10.jpg);
           background-position: top right;
           background-repeat: no-repeat;
           background-size: cover;
         }
 
+        #index-header img {
+          position: absolute;
+          width: 300px;
+          left: 50%;
+          top: calc(50% + 20px);
+          transform: translate(-50%, -50%);
+        }
+
         section {
           min-height: 500px;
-          padding: 80px 0;
+          padding: 100px 0;
         }
 
         button {
@@ -152,11 +163,16 @@ const App = () => (
         .phone {
           font-size: 45px;
         }
-
+        #index-about img {
+          position: absolute;
+          left: -150px;
+          transform: rotate(90deg);
+          width: 800px;
+        }
         #index-gallery {
           position: relative;
-          background-image: url(/static/imgs/index-header.jpg);
-          background-position: center;
+          background-image: url(/static/imgs/1.jpg);
+          background-position: bottom left;
           background-repeat: no-repeat;
           background-size: cover;
         }
@@ -211,7 +227,7 @@ const App = () => (
         }
 
         .tiles div:nth-child(3) {
-          background-image: url("/static/imgs/7.jpg");
+          background-image: url("/static/imgs/2.jpg");
           grid-column-start: 2;
           grid-column-end: 2;
           grid-row-start: 2;
@@ -225,6 +241,18 @@ const App = () => (
           grid-column-end: 3;
           grid-row-start: 3;
           grid-row-end: 3;
+        }
+
+        #index-contact {
+          position: relative;
+        }
+
+        #index-contact img {
+          width: 800px;
+          position: absolute;
+          right: -150px;
+          top: 200px;
+          transform: rotate(90deg);
         }
       `}</style>
     </div>
