@@ -107,6 +107,18 @@ const App = () => (
           transform: translate(-50%, -50%);
         }
 
+        @media screen and (max-width: 850px) {
+          #index-header img {
+            width: 200px;
+          }
+
+          @media screen and (max-width: 450px) {
+            #index-header img {
+              width: 150px;
+            }
+          }
+        }
+
         section {
           min-height: 500px;
           padding: 100px 0;
