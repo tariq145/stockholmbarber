@@ -14,6 +14,10 @@
     "/barbers": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/booking": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

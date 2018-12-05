@@ -42,7 +42,7 @@ export default class Booking extends Component {
       <Layout>
         <div id="booking">
           <div className="container">
-            {this.state.currentState === 1 ? (
+            {/* {this.state.currentState === 1 ? (
               <ChooseBarber addBarber={this.addBarber} />
             ) : null}
 
@@ -52,7 +52,9 @@ export default class Booking extends Component {
 
             {this.state.currentState === 3 ? (
               <Confiramtion info={this.state.info} />
-            ) : null}
+            ) : null} */}
+
+            <ChooseDate />
           </div>
         </div>
         <style jsx>{`
@@ -279,6 +281,27 @@ const Confiramtion = props => (
         .confirm-container {
             padding
         }
+    `}</style>
+  </div>
+);
+
+const ChooseDate = () => (
+  <div id="date">
+    <h1>Välj Datum</h1>
+    <div className="container">
+      <div className="table-container">CHOOSE DAte</div>
+    </div>
+    <style jsx>{`
+      h1 {
+        color: #fff;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 800px;
+        background: #f7f7f7;
+        margin: 0 auto;
+      }
     `}</style>
   </div>
 );
