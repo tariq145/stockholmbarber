@@ -253,6 +253,40 @@ const App = () => (
           grid-row-end: 3;
         }
 
+        @media screen and (max-width: 768px) {
+          #index-gallery .container {
+            width: 98%;
+          }
+          .tiles div:nth-child(1) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+          }
+
+          .tiles div:nth-child(2) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+          }
+
+          .tiles div:nth-child(3) {
+            background-image: url("/static/imgs/2.jpg");
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 3;
+          }
+
+          .tiles div:nth-child(4) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 4;
+          }
+        }
+
         #index-contact {
           position: relative;
         }
