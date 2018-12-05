@@ -22,9 +22,26 @@
       "static/runtime/main-ef8970f9a07edc6d6893.js"
     ],
     "/_error": [
+<<<<<<< HEAD
       "static/runtime/webpack-42652fa8b82c329c0559.js",
       "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
       "static/runtime/main-ef8970f9a07edc6d6893.js"
+=======
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/services": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+>>>>>>> 97364d0232d33c4d2102fa0be404ab3373671c6a
+    ],
+    "/barbers": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/": [
       "static/runtime/webpack-42652fa8b82c329c0559.js",

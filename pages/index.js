@@ -54,31 +54,34 @@ const App = () => (
         </div>
       </section>
       <section id="index-contact">
-        <h1>kontakta oss</h1>
-        <div className="phone">(08)-12345678</div>
-        <div className="text">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit,
-            accusamus?
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nisi
-            dolorum expedita asperiores alias sint, aspernatur harum maxime
-            libero et.
-          </p>
-          <p>Lorem ipsum dolor sit amet.</p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
-            cumque, consectetur temporibus molestiae provident ducimus.
-          </p>
-          <strong>Öppet tider:</strong>
-          <p>
-            <i>Mon-Fre : 11-18</i>
-          </p>
-          <p>
-            <i>Sat-Sun : 11-16</i>
-          </p>
+        <div className="container">
+          <h1>kontakta oss</h1>
+
+          <div className="phone">(08)-12345678</div>
+          <div className="text">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              accusamus?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              nisi dolorum expedita asperiores alias sint, aspernatur harum
+              maxime libero et.
+            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+              cumque, consectetur temporibus molestiae provident ducimus.
+            </p>
+            <strong>Öppet tider:</strong>
+            <p>
+              <i>Mon-Fre : 11-18</i>
+            </p>
+            <p>
+              <i>Sat-Sun : 11-16</i>
+            </p>
+          </div>
         </div>
       </section>
 
@@ -169,6 +172,13 @@ const App = () => (
           transform: rotate(90deg);
           width: 800px;
         }
+
+        @media screen and (max-width: 1250px) {
+          #index-about img {
+            display: none;
+          }
+        }
+
         #index-gallery {
           position: relative;
           background-image: url(/static/imgs/1.jpg);
@@ -241,6 +251,40 @@ const App = () => (
           grid-column-end: 3;
           grid-row-start: 3;
           grid-row-end: 3;
+        }
+
+        @media screen and (max-width: 768px) {
+          #index-gallery .container {
+            width: 98%;
+          }
+          .tiles div:nth-child(1) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+          }
+
+          .tiles div:nth-child(2) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 2;
+          }
+
+          .tiles div:nth-child(3) {
+            background-image: url("/static/imgs/2.jpg");
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 3;
+          }
+
+          .tiles div:nth-child(4) {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 4;
+          }
         }
 
         #index-contact {

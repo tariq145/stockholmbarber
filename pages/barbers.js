@@ -10,12 +10,10 @@ const barbers = () => {
             <div className="barber-container">
               <div className="barber">
                 <div className="img" />
-                <div className="name">John Doe</div>
+                <div className="name">Ghani A.C</div>
                 <div className="description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magni, corporis ducimus veritatis eaque iste, tempora minus
-                  totam tenetur reiciendis sit nesciunt libero repudiandae
-                  accusantium maxime, consequuntur inventore quo velit? Cum.
+                  Barberat i 28år. Kvalité är min prioritet etc. Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Debitis, eaque?
                 </div>
               </div>
             </div>
@@ -61,13 +59,14 @@ const barbers = () => {
         }
 
         .barber-container {
+          padding-top: 40px;
           display: flex;
           justify-content: space-around;
         }
 
         .barber {
-          flex-basis: 26%;
-          max-width: 500px;
+          flex-basis: 100%;
+          max-width: 450px;
         }
 
         .img {
