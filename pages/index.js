@@ -54,31 +54,34 @@ const App = () => (
         </div>
       </section>
       <section id="index-contact">
-        <h1>kontakta oss</h1>
-        <div className="phone">(08)-12345678</div>
-        <div className="text">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit,
-            accusamus?
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nisi
-            dolorum expedita asperiores alias sint, aspernatur harum maxime
-            libero et.
-          </p>
-          <p>Lorem ipsum dolor sit amet.</p>
-          <br />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
-            cumque, consectetur temporibus molestiae provident ducimus.
-          </p>
-          <strong>Öppet tider:</strong>
-          <p>
-            <i>Mon-Fre : 11-18</i>
-          </p>
-          <p>
-            <i>Sat-Sun : 11-16</i>
-          </p>
+        <div className="container">
+          <h1>kontakta oss</h1>
+
+          <div className="phone">(08)-12345678</div>
+          <div className="text">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              accusamus?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              nisi dolorum expedita asperiores alias sint, aspernatur harum
+              maxime libero et.
+            </p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+              cumque, consectetur temporibus molestiae provident ducimus.
+            </p>
+            <strong>Öppet tider:</strong>
+            <p>
+              <i>Mon-Fre : 11-18</i>
+            </p>
+            <p>
+              <i>Sat-Sun : 11-16</i>
+            </p>
+          </div>
         </div>
       </section>
 
@@ -169,6 +172,13 @@ const App = () => (
           transform: rotate(90deg);
           width: 800px;
         }
+
+        @media screen and (max-width: 1250px) {
+          #index-about img {
+            display: none;
+          }
+        }
+
         #index-gallery {
           position: relative;
           background-image: url(/static/imgs/1.jpg);
