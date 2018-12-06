@@ -1,5 +1,7 @@
 import { Component } from "react";
 
+import { Helmet } from "react-helmet";
+
 import Layout from "../../components/Layout";
 
 export default class Booking extends Component {
@@ -54,7 +56,17 @@ export default class Booking extends Component {
               <Confiramtion info={this.state.info} />
             ) : null} */}
 
-            <ChooseDate />
+            <script src="//simplybook.it/v2/widget/widget.js" />
+            <script src="/static/widget.js" />
+            <iframe
+              className="sb-widget-iframe"
+              width="100%"
+              border="0"
+              frameBorder="0"
+              name="widget_0.5944725343766208"
+              id="widget_0.5944725343766208"
+              src="https://stockholmbarber.simplybook.it/v2/?widget-type=iframe&theme=emeri&theme=emeri&timeline=modern&datepicker=inline_datepicker"
+            />
           </div>
         </div>
         <style jsx>{`
@@ -73,6 +85,12 @@ export default class Booking extends Component {
 
           .container {
             padding: 100px 0;
+            max-width: 1200px;
+            margin: 0 auto;
+          }
+
+          .container iframe {
+            height: 800px;
           }
         `}</style>
       </Layout>
@@ -289,7 +307,29 @@ const ChooseDate = () => (
   <div id="date">
     <h1>Välj Datum</h1>
     <div className="container">
-      <div className="table-container">CHOOSE DAte</div>
+      <div className="date-header">This is the date container</div>
+      <div className="date-table-container">
+        <table>
+          <tr>
+            <th>Mån</th>
+            <th>Tis</th>
+            <th>Ons</th>
+            <th>Tor</th>
+            <th>Fre</th>
+            <th>Lör</th>
+            <th>Sön</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>
+                <div className="day-times">
+                  <TableCol />
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <style jsx>{`
       h1 {
@@ -302,6 +342,99 @@ const ChooseDate = () => (
         background: #f7f7f7;
         margin: 0 auto;
       }
+
+      thead {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .time {
+        padding: 20px;
+      }
     `}</style>
   </div>
 );
+
+const double = number => {
+  if (number < 9) {
+    return "0" + number;
+  }
+
+  return number;
+};
+
+const TableCol = () => {
+  let col = [];
+  let hour = 11;
+  let minute = 5;
+  for (let i = 0; i < 7; i++) {
+    for (let j = 0; j < 12; j++) {
+      col.push(
+        <div
+          className="time"
+          name={hour + i + ":" + double(minute * j)}
+          key={hour + i + ":" + double(minute * j)}
+          id={hour + i + ":" + double(minute * j)}
+          onClick={e => {
+            console.log(e.target.id);
+          }}
+        >
+          {hour + i}:{double(minute * j)}
+        </div>
+      );
+    }
+  }
+
+  return (
+    <div className="day-time-container">
+      {col}
+      <style jsx global>{`
+        .day-time-container {
+        }
+
+        .time {
+          cursor: pointer;
+          padding: 5px 15px;
+          border-radius: 1px;
+          margin: 5px 10px;
+          box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .time:hover {
+          background: green;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+const TableData = () => {
+  let table = [];
+  for (let i = 0; i < 8; i++) {
+    table.push(
+      <td>
+        <TableRow />
+      </td>
+    );
+  }
+
+  return table;
+};
+
+/*
+  TODO:
+    date: {
+      year: --,
+      month: --,
+      date: --,
+      startTime:{
+        hour: 11,
+        min:00;
+      },
+      endTime: {
+        hour: 12,
+        min: 00
+      },
+    }
+
+*/
