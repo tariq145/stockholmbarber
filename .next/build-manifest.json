@@ -32,11 +32,21 @@
       "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
       "static/runtime/main-ef8970f9a07edc6d6893.js"
     ],
+<<<<<<< HEAD
 >>>>>>> fee852d2ff98e89ad70a8ac4f3918e94444d6e36
     "/": [
       "static/runtime/webpack-42652fa8b82c329c0559.js",
       "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
       "static/runtime/main-ef8970f9a07edc6d6893.js"
+=======
+    "/services": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/booking": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+>>>>>>> booking
     ]
   }
 }

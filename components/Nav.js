@@ -12,9 +12,9 @@ const Nav = () => (
       <Link href="/services">
         <a>Tjänster</a>
       </Link>
-      {/* <Link href="/booking">
+      <Link href="/booking">
         <a>Bokning</a>
-      </Link> */}
+      </Link>
     </div>
     <style jsx>{`
       #nav {
