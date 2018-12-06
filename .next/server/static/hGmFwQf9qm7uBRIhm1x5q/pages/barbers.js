@@ -240,26 +240,26 @@ __webpack_require__.r(__webpack_exports__);
 var barbers = function barbers() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "barbers",
-    className: "jsx-2117070251"
+    className: "jsx-2665673449"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: "jsx-2117070251"
+    className: "jsx-2665673449"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-2117070251"
+    className: "jsx-2665673449"
   }, "V\xE5ra barberare"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2117070251" + " " + "container"
+    className: "jsx-2665673449" + " " + "container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2117070251" + " " + "barber-container"
+    className: "jsx-2665673449" + " " + "barber-container"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2117070251" + " " + "barber"
+    className: "jsx-2665673449" + " " + "barber"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2117070251" + " " + "img"
+    className: "jsx-2665673449" + " " + "img"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2117070251" + " " + "name"
-  }, "John Doe"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2117070251" + " " + "description"
-  }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corporis ducimus veritatis eaque iste, tempora minus totam tenetur reiciendis sit nesciunt libero repudiandae accusantium maxime, consequuntur inventore quo velit? Cum.")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2117070251",
-    css: ["#barbers.jsx-2117070251{min-height:1000px;position:relative;background-image:url(/static/imgs/index-header.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;}", "section.jsx-2117070251{padding:100px 0;}", "h1.jsx-2117070251{color:#fff;position:relative;z-index:3;}", "#barbers.jsx-2117070251:before{content:\"\";position:absolute;top:0;bottom:0;right:0;left:0;background:rgba(0,0,0,0.6);z-index:2;}", ".container.jsx-2117070251{position:relative;z-index:3;color:#fff;width:80%;margin:0 auto;}", ".barber-container.jsx-2117070251{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;}", ".barber.jsx-2117070251{-webkit-flex-basis:26%;-ms-flex-preferred-size:26%;flex-basis:26%;max-width:500px;}", ".img.jsx-2117070251{background-image:url(/static/imgs/barber1.jpg);background-position:top;background-repeat:no-repeat;background-size:cover;width:150px;height:150px;border-radius:50%;margin:0 auto;margin-bottom:20px;}", ".name.jsx-2117070251{font-size:35px;margin-bottom:20px;}"]
+    className: "jsx-2665673449" + " " + "name"
+  }, "Ghani A.C"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2665673449" + " " + "description"
+  }, "Barberat i 28\xE5r. Kvalit\xE9 \xE4r min prioritet etc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eaque?")))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "2665673449",
+    css: ["#barbers.jsx-2665673449{min-height:1000px;position:relative;background-image:url(/static/imgs/index-header.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;}", "section.jsx-2665673449{padding:100px 0;}", "h1.jsx-2665673449{color:#fff;position:relative;z-index:3;}", "#barbers.jsx-2665673449:before{content:\"\";position:absolute;top:0;bottom:0;right:0;left:0;background:rgba(0,0,0,0.6);z-index:2;}", ".container.jsx-2665673449{position:relative;z-index:3;color:#fff;width:80%;margin:0 auto;}", ".barber-container.jsx-2665673449{padding-top:40px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;}", ".barber.jsx-2665673449{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;max-width:450px;}", ".img.jsx-2665673449{background-image:url(/static/imgs/barber1.jpg);background-position:top;background-repeat:no-repeat;background-size:cover;width:150px;height:150px;border-radius:50%;margin:0 auto;margin-bottom:20px;}", ".name.jsx-2665673449{font-size:35px;margin-bottom:20px;}"]
   }));
 };
 

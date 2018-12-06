@@ -47,12 +47,12 @@
   },
   "chunks": {
     "byName": {
-      "static/imk1B5SQGKU9KizfUr3hf/pages/_document.js": 0,
-      "static/imk1B5SQGKU9KizfUr3hf/pages/barbers.js": 1,
-      "static/imk1B5SQGKU9KizfUr3hf/pages/index.js": 2,
-      "static/imk1B5SQGKU9KizfUr3hf/pages/services.js": 3,
-      "static/imk1B5SQGKU9KizfUr3hf/pages/_app.js": 4,
-      "static/imk1B5SQGKU9KizfUr3hf/pages/_error.js": 5
+      "static/hGmFwQf9qm7uBRIhm1x5q/pages/_document.js": 0,
+      "static/hGmFwQf9qm7uBRIhm1x5q/pages/barbers.js": 1,
+      "static/hGmFwQf9qm7uBRIhm1x5q/pages/index.js": 2,
+      "static/hGmFwQf9qm7uBRIhm1x5q/pages/services.js": 3,
+      "static/hGmFwQf9qm7uBRIhm1x5q/pages/_app.js": 4,
+      "static/hGmFwQf9qm7uBRIhm1x5q/pages/_error.js": 5
     },
     "bySource": {},
     "usedIds": [
