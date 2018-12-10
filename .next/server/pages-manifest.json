@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-{"/_document":"static\\development\\pages\\_document.js","/_app":"static\\development\\pages\\_app.js","/_error":"static\\development\\pages\\_error.js","/index":"static\\development\\pages\\index.js","/":"static\\development\\pages\\index.js"}
-=======
-{"/_document":"static/hGmFwQf9qm7uBRIhm1x5q/pages/_document.js","/barbers":"static/hGmFwQf9qm7uBRIhm1x5q/pages/barbers.js","/index":"static/hGmFwQf9qm7uBRIhm1x5q/pages/index.js","/services":"static/hGmFwQf9qm7uBRIhm1x5q/pages/services.js","/_app":"static/hGmFwQf9qm7uBRIhm1x5q/pages/_app.js","/_error":"static/hGmFwQf9qm7uBRIhm1x5q/pages/_error.js","/":"static/hGmFwQf9qm7uBRIhm1x5q/pages/index.js"}
->>>>>>> fee852d2ff98e89ad70a8ac4f3918e94444d6e36
-=======
-{"/_document":"static\\development\\pages\\_document.js","/_app":"static\\development\\pages\\_app.js","/_error":"static\\development\\pages\\_error.js","/booking":"static\\development\\pages\\booking.js","/services":"static\\development\\pages\\services.js"}
->>>>>>> booking
+{"/_document":"static\\development\\pages\\_document.js","/_app":"static\\development\\pages\\_app.js","/_error":"static\\development\\pages\\_error.js","/booking":"static\\development\\pages\\booking.js","/index":"static\\development\\pages\\index.js","/":"static\\development\\pages\\index.js"}

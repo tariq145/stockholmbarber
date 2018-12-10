@@ -11,7 +11,7 @@ const App = () => (
       <section id="index-about">
         <img src="/static/imgs/knife.png" alt="" />
         <div className="container">
-          <h1>Stockholm Barber Company</h1>
+          <h1>Stockholm Barber Co.</h1>
 
           <div className="text">
             <p>
@@ -137,7 +137,6 @@ const App = () => (
         .container {
           width: 80%;
           margin: 0 auto;
-          padding: 40px 0;
           position: relative;
         }
 

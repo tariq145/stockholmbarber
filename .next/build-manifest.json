@@ -1,52 +1,27 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_86d7de3159d32d38a4d2.js"
+  ],
   "pages": {
-    "/barbers": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
-      "static/runtime/main-ef8970f9a07edc6d6893.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
-      "static/runtime/main-ef8970f9a07edc6d6893.js"
-    ],
-<<<<<<< HEAD
-    "/index": [
+    "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-=======
-    "/services": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
-      "static/runtime/main-ef8970f9a07edc6d6893.js"
-    ],
-    "/_app": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
-      "static/runtime/main-ef8970f9a07edc6d6893.js"
-    ],
     "/_error": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
-      "static/runtime/main-ef8970f9a07edc6d6893.js"
-    ],
-<<<<<<< HEAD
->>>>>>> fee852d2ff98e89ad70a8ac4f3918e94444d6e36
-    "/": [
-      "static/runtime/webpack-42652fa8b82c329c0559.js",
-      "static/chunks/commons.7cbded99d0ca81b5c1e1.js",
-      "static/runtime/main-ef8970f9a07edc6d6893.js"
-=======
-    "/services": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
     "/booking": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
->>>>>>> booking
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

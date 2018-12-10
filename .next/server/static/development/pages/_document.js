@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/document */ "next/document");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/root/stockholmbarber/pages/_document.js";
+var _jsxFileName = "C:\\Users\\Tariq\\Desktop\\dev\\stockholm_barber_front\\pages\\_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -167,45 +167,37 @@ function (_Document) {
           lineNumber: 12
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        name: "viewport",
-        content: "width=device-width, initial-scale=1.0",
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface",
+        rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Amiri|Anton",
-        rel: "stylesheet",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("style", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 18
         },
         __self: this
-      }, "\n               body {\n                margin: 0;\n                font-size: 18px;\n                text-align: center;\n                font-family: Amiri, serif;\n              } \n              h1 {\n                font-family: Anton, sans-serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Anton, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
+      }, "\n\n              @font-face {\n                font-family: Bernard MT;\n                src: url(/static/fonts/BERNHC.ttf):\n              }\n               body {\n                margin: 0;\n                font-size: 18px;\n                text-align: center;\n                font-family: Amiri, serif;\n              } \n              h1 {\n                font-family: Bernard MT, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard MT, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
         className: "custom_class",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
         },
         __self: this
       })));

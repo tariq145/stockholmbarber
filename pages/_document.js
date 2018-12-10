@@ -10,16 +10,17 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
           <link
-            href="https://fonts.googleapis.com/css?family=Amiri|Anton"
+            href="https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface"
             rel="stylesheet"
           />
 
           <style>{`
+
+              @font-face {
+                font-family: Bernard MT;
+                src: url(/static/fonts/BERNHC.ttf):
+              }
                body {
                 margin: 0;
                 font-size: 18px;
@@ -27,7 +28,7 @@ export default class MyDocument extends Document {
                 font-family: Amiri, serif;
               } 
               h1 {
-                font-family: Anton, sans-serif;  
+                font-family: Bernard MT, serif;  
                 font-size: 55px;
                 text-align: center;
                 text-transform: uppercase;
@@ -36,7 +37,7 @@ export default class MyDocument extends Document {
               }
 
               a {
-                font-family: Anton, serif;
+                font-family: Bernard MT, serif;
                 font-size: 18px;
                 font-weight: 200;
               }
