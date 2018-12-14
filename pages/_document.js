@@ -19,6 +19,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface"
             rel="stylesheet"
           />
+          <link rel="icon" type="image/x-icon" href="../static/favicon.ico" />
 
           <style>{`
               @font-face {

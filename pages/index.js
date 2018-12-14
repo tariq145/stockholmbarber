@@ -54,7 +54,7 @@ const App = () => (
         <div className="container">
           <h1>kontakta oss</h1>
 
-          <div className="phone">(08)-12345678</div>
+          <div className="phone">(08)-428 611 32</div>
           <div className="text">
             <p>Tveka inte att höra av er till oss angående frågor.</p>
             <p>
@@ -66,7 +66,7 @@ const App = () => (
                 Kom förbi:
                 <br />
                 <span style={{ fontSize: "25px" }}>
-                  Hornsgatan 97, Stockholm
+                  Hornsgatan 97, 117 26 Stockholm
                 </span>
               </strong>
             </p>
