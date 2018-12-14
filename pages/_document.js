@@ -46,6 +46,11 @@ export default class MyDocument extends Document {
                 font-size: 18px;
                 font-weight: 200;
               }
+              @media screen and (max-width: 320px ){
+                h1 {
+                  font-size: 45px;
+                }
+              }
                } /* custom! */`}</style>
         </Head>
         <body className="custom_class">
