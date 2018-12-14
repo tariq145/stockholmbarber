@@ -11,13 +11,16 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Stockholm Barber Company</title>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           <link
             href="https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface"
             rel="stylesheet"
           />
 
           <style>{`
-
               @font-face {
                 font-family: Bernard MT;
                 src: url(/static/fonts/BERNHC.ttf):
