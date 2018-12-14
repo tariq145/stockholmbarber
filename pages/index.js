@@ -81,10 +81,10 @@ const App = () => (
           </div>
 
           <div className="social">
-            <a href="#">
+            <a href="https://www.instagram.com/stockholmbarber/">
               <img src="/static/imgs/ig.png" alt="" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/stockholmbarber/">
               <img src="/static/imgs/fb.png" alt="" />
             </a>
           </div>
