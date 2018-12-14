@@ -10,6 +10,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <title>Stockholm Barber Company</title>
           <link
             href="https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface"
             rel="stylesheet"
@@ -23,9 +24,9 @@ export default class MyDocument extends Document {
               }
                body {
                 margin: 0;
-                font-size: 18px;
+                font-size: 20px;
                 text-align: center;
-                font-family: Amiri, serif;
+                font-family: Amiri, sans-serif;
               } 
               h1 {
                 font-family: Bernard MT, serif;  

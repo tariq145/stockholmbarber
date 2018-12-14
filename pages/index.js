@@ -15,20 +15,17 @@ const App = () => (
 
           <div className="text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis ab iusto repudiandae? Cupiditate reprehenderit
-              consequuntur iure incidunt quis assumenda omnis repellat? Incidunt
-              commodi velit maxime obcaecati ipsa inventore laboriosam nesciunt.
+              För oss är en frisyr något som kännetecknar dig, en signatur. Våra
+              barberare är erfarna och ser till att du lämnar oss med ditt
+              kännetecken och en längtan tillbaka.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-              error provident, sint nemo molestias dolorum doloremque nihil
-              temporibus? Placeat, at!
+              <strong>Kom förbi och få din signatur i hjärtat av söder.</strong>
             </p>
           </div>
 
           <Link href="booking">
-            <button>Boka nu</button>
+            <button style={{ fontFamily: "Bernard MT" }}>Boka nu</button>
           </Link>
         </div>
       </section>
@@ -59,28 +56,37 @@ const App = () => (
 
           <div className="phone">(08)-12345678</div>
           <div className="text">
+            <p>Tveka inte att höra av er till oss angående frågor.</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              accusamus?
+              Stockholm Barber company är en plats för dig att koppla av och ta
+              de lungt, ett andra hem.
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-              nisi dolorum expedita asperiores alias sint, aspernatur harum
-              maxime libero et.
+              <strong>
+                Kom förbi:
+                <br />
+                <span style={{ fontSize: "25px" }}>
+                  Hornsgatan 97, Stockholm
+                </span>
+              </strong>
             </p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <br />
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
-              cumque, consectetur temporibus molestiae provident ducimus.
-            </p>
-            <strong>Öppet tider:</strong>
-            <p>
+              <strong>Öppet tider:</strong>
+              <br />
               <i>Mon-Fre : 11-18</i>
             </p>
             <p>
               <i>Sat-Sun : 11-16</i>
             </p>
+          </div>
+
+          <div className="social">
+            <a href="#">
+              <img src="/static/imgs/ig.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/static/imgs/fb.png" alt="" />
+            </a>
           </div>
         </div>
       </section>
@@ -93,7 +99,7 @@ const App = () => (
           position: relative;
           width: 100%;
           height: 100vh;
-          background-image: url(/static/imgs/10.jpg);
+          background-image: url(/static/imgs/10.jpeg);
           background-position: top right;
           background-repeat: no-repeat;
           background-size: cover;
@@ -120,7 +126,6 @@ const App = () => (
         }
 
         section {
-          min-height: 500px;
           padding: 100px 0;
         }
 
@@ -192,7 +197,7 @@ const App = () => (
 
         #index-gallery {
           position: relative;
-          background-image: url(/static/imgs/1.jpg);
+          background-image: url(/static/imgs/1.jpeg);
           background-position: bottom left;
           background-repeat: no-repeat;
           background-size: cover;
@@ -232,7 +237,7 @@ const App = () => (
         }
 
         .tiles div:nth-child(1) {
-          background-image: url("/static/imgs/5.jpg");
+          background-image: url("/static/imgs/5.jpeg");
           grid-column-start: 1;
           grid-column-end: 1;
           grid-row-start: 1;
@@ -240,7 +245,7 @@ const App = () => (
         }
 
         .tiles div:nth-child(2) {
-          background-image: url("/static/imgs/9.jpg");
+          background-image: url("/static/imgs/9.jpeg");
           grid-column-start: 2;
           grid-column-end: 2;
           grid-row-start: 1;
@@ -248,7 +253,7 @@ const App = () => (
         }
 
         .tiles div:nth-child(3) {
-          background-image: url("/static/imgs/2.jpg");
+          background-image: url("/static/imgs/2.jpeg");
           grid-column-start: 2;
           grid-column-end: 2;
           grid-row-start: 2;
@@ -256,7 +261,7 @@ const App = () => (
         }
 
         .tiles div:nth-child(4) {
-          background-image: url("/static/imgs/4.jpg");
+          background-image: url("/static/imgs/4.jpeg");
           background-position: bottom;
           grid-column-start: 1;
           grid-column-end: 3;
@@ -283,7 +288,7 @@ const App = () => (
           }
 
           .tiles div:nth-child(3) {
-            background-image: url("/static/imgs/2.jpg");
+            background-image: url("/static/imgs/2.jpeg");
             grid-column-start: 1;
             grid-column-end: 4;
             grid-row-start: 3;
@@ -302,12 +307,13 @@ const App = () => (
           position: relative;
         }
 
-        #index-contact img {
-          width: 800px;
-          position: absolute;
-          right: -150px;
-          top: 200px;
-          transform: rotate(90deg);
+        .social {
+          margin-top: 40px;
+        }
+
+        .social img {
+          width: 40px;
+          margin: 0 10px;
         }
       `}</style>
     </div>

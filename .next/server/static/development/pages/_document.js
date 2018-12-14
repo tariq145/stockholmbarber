@@ -167,37 +167,43 @@ function (_Document) {
           lineNumber: 12
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-        href: "https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface",
-        rel: "stylesheet",
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
+      }, "Stockholm Barber Company"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface",
+        rel: "stylesheet",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("style", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         },
         __self: this
-      }, "\n\n              @font-face {\n                font-family: Bernard MT;\n                src: url(/static/fonts/BERNHC.ttf):\n              }\n               body {\n                margin: 0;\n                font-size: 18px;\n                text-align: center;\n                font-family: Amiri, serif;\n              } \n              h1 {\n                font-family: Bernard MT, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard MT, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
+      }, "\n\n              @font-face {\n                font-family: Bernard MT;\n                src: url(/static/fonts/BERNHC.ttf):\n              }\n               body {\n                margin: 0;\n                font-size: 20px;\n                text-align: center;\n                font-family: Amiri, sans-serif;\n              } \n              h1 {\n                font-family: Bernard MT, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard MT, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
         className: "custom_class",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
         },
         __self: this
       })));

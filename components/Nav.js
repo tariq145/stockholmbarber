@@ -34,8 +34,15 @@ const Nav = () => (
       a {
         text-decoration: none;
         color: #fff;
-        font-size: 20;
+        font-size: 20px;
         margin: 0 20px;
+      }
+
+      @media screen and (max-width: 400px) {
+        a {
+          font-size: 18px;
+          margin: 0 10px;
+        }
       }
     `}</style>
   </div>

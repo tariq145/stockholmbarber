@@ -10,10 +10,10 @@ const barbers = () => {
             <div className="barber-container">
               <div className="barber">
                 <div className="img" />
-                <div className="name">Ghani A.C</div>
+                <div className="name">Ghani Amor Chaoui</div>
                 <div className="description">
-                  Barberat i 28år. Kvalité är min prioritet etc. Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Debitis, eaque?
+                  Blev kär i barberandet sedan ung ålder, det är som en konst
+                  för mig. Jag har varit barberare i 28år.
                 </div>
               </div>
             </div>
@@ -74,16 +74,22 @@ const barbers = () => {
           background-position: top;
           background-repeat: no-repeat;
           background-size: cover;
-          width: 150px;
-          height: 150px;
+          width: 220px;
+          height: 220px;
           border-radius: 50%;
           margin: 0 auto;
           margin-bottom: 20px;
         }
 
         .name {
-          font-size: 35px;
-          margin-bottom: 20px;
+          font-size: 40px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .description {
+          max-width: 400px;
+          margin: 0 auto;
         }
       `}</style>
     </Layout>

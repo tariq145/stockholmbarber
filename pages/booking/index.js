@@ -1,41 +1,43 @@
 import { Component } from "react";
 
-import NoSSR from "react-no-ssr";
-
 import Layout from "../../components/Layout";
 
 export default class Booking extends Component {
   state = {
-    info: {},
-    currentState: 1
+    loaded: false
   };
 
   render() {
+    let placeHolder = !this.state.loaded ? (
+      <div className="placeholder">
+        <div className="nav" />
+      </div>
+    ) : null;
     return (
       <Layout>
         <div id="booking">
           <div className="container">
+            {placeHolder}
             <iframe
-              className="sb-widget-iframe"
+              className="sb-widget-iframe frame"
               width="100%"
               border="0"
-              scrolling="yes"
               frameBorder="0"
+              onLoad={() => this.setState({ loaded: true })}
               name="widget_0.5944725343766208"
               id="widget_0.5944725343766208"
               src="https://stockholmbarber.simplybook.it/v2/#book"
             />
-            {/*  */}
           </div>
         </div>
         <style jsx global>{`
           body {
-            overflow: hidden;
+            overflow-y: hidden;
           }
           #booking {
             min-height: 100.1vh;
             position: relative;
-            background-image: url(/static/imgs/1.jpg);
+            background-image: url(/static/imgs/1.jpeg);
             background-position: bottom left;
             background-repeat: no-repeat;
             background-size: cover;
@@ -51,7 +53,12 @@ export default class Booking extends Component {
           }
 
           .container iframe {
-            min-height: 800px;
+            height: calc(100vh - 100px);
+          }
+
+          .placeholder {
+            height: calc(100vh - 100px);
+            background: #f7f7f7;
           }
         `}</style>
       </Layout>
