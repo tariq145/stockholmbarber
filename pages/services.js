@@ -87,17 +87,13 @@ class Services extends React.Component {
             justify-content: space-around;
           }
 
-          service-type {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            max-width: 600px;
+          .service-type {
+            flex-basis: 100%;
           }
 
           .service {
             padding: 20px 40px;
-            flex-basis: 100%;
-            max-width: 600px;
+            width: calc(100% - 80px);
             background: #f9f9f9;
             color: #000;
             text-align: left;
@@ -109,9 +105,9 @@ class Services extends React.Component {
             margin-bottom: 0;
           }
 
-          @media screen and (min-width: 1050px) {
-            .service {
-              flex-basis: 40%;
+          @media screen and (min-width: 950px) {
+            .service-type {
+              flex-basis: 45%;
             }
           }
 
@@ -202,7 +198,7 @@ let staticServices = {
     },
     {
       name: "Trådning",
-      description: "Något",
+      description: "Trådning.",
       time: "15min",
       pris: "120kr"
     },

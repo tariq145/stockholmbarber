@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
                     url('BernardMT-Condensed.svg#BernardMT-Condensed') format('svg');
                 font-weight: normal;
                 font-style: normal;
-            }
+              }
             
                body {
                 margin: 0;
