@@ -23,9 +23,17 @@ export default class MyDocument extends Document {
 
           <style>{`
               @font-face {
-                font-family: Bernard MT;
-                src: url(/static/fonts/BERNHC.ttf):
-              }
+                font-family: 'Bernard MT';
+                src: url('BernardMT-Condensed.eot');
+                src: url('BernardMT-Condensed.eot?#iefix') format('embedded-opentype'),
+                    url('BernardMT-Condensed.woff2') format('woff2'),
+                    url('BernardMT-Condensed.woff') format('woff'),
+                    url('BernardMT-Condensed.ttf') format('truetype'),
+                    url('BernardMT-Condensed.svg#BernardMT-Condensed') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            
                body {
                 margin: 0;
                 font-size: 20px;
