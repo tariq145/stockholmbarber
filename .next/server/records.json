@@ -57,14 +57,14 @@
   },
   "chunks": {
     "byName": {
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\_document.js": 0,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\barbers.js": 1,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\booking.js": 2,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\GetData.js": 3,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\index.js": 4,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\services.js": 5,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\_app.js": 6,
-      "static\\6DTx3U5Dll4NJID0B8qSy\\pages\\_error.js": 7
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\_document.js": 0,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\barbers.js": 1,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\booking.js": 2,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\GetData.js": 3,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\index.js": 4,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\services.js": 5,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\_app.js": 6,
+      "static\\PUSF9QUmRCXUYZxq3Yayz\\pages\\_error.js": 7
     },
     "bySource": {},
     "usedIds": [

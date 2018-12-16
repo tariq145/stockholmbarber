@@ -204,23 +204,23 @@ function (_Document) {
           lineNumber: 24
         },
         __self: this
-      }, "\n              @font-face {\n                font-family: 'Bernard MT';\n                src: url('BernardMT-Condensed.eot');\n                src: url('BernardMT-Condensed.eot?#iefix') format('embedded-opentype'),\n                    url('BernardMT-Condensed.woff2') format('woff2'),\n                    url('BernardMT-Condensed.woff') format('woff'),\n                    url('BernardMT-Condensed.ttf') format('truetype'),\n                    url('BernardMT-Condensed.svg#BernardMT-Condensed') format('svg');\n                font-weight: normal;\n                font-style: normal;\n              }\n            \n               body {\n                margin: 0;\n                font-size: 20px;\n                text-align: center;\n                font-family: Amiri, sans-serif;\n              } \n              h1 {\n                font-family: Bernard MT, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard MT, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n              @media screen and (max-width: 320px ){\n                h1 {\n                  font-size: 45px;\n                }\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
+      }, "\n              @font-face {\n                font-family: 'Bernard MT';\n                src: url('BernardMT-Condensed.eot');\n                src: url('BernardMT-Condensed.eot?#iefix') format('embedded-opentype'),\n                    url('BernardMT-Condensed.woff2') format('woff2'),\n                    url('BernardMT-Condensed.woff') format('woff'),\n                    url('BernardMT-Condensed.ttf') format('truetype'),\n                    url('BernardMT-Condensed.svg#BernardMT-Condensed') format('svg');\n                font-weight: normal;\n                font-style: normal;\n              }\n            \n               body {\n                margin: 0;\n                font-size: 20px;\n                text-align: center;\n                font-family: Amiri, sans-serif;\n              } \n              h1 {\n                font-family: Bernard MT, Amiri, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard MT ,Amiri, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n\n              @media screen and (max-width: 410px) {\n                h1 {\n                  font-size: 40px;\n                }\n              }\n              @media screen and (max-width: 310px ){\n                h1 {\n                  font-size: 20px;\n                }\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
         className: "custom_class",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 70
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 71
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 72
         },
         __self: this
       })));

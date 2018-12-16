@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
                 font-family: Amiri, sans-serif;
               } 
               h1 {
-                font-family: Bernard MT, serif;  
+                font-family: Bernard MT, Amiri, serif;  
                 font-size: 55px;
                 text-align: center;
                 text-transform: uppercase;
@@ -50,13 +50,19 @@ export default class MyDocument extends Document {
               }
 
               a {
-                font-family: Bernard MT, serif;
+                font-family: Bernard MT ,Amiri, serif;
                 font-size: 18px;
                 font-weight: 200;
               }
-              @media screen and (max-width: 320px ){
+
+              @media screen and (max-width: 410px) {
                 h1 {
-                  font-size: 45px;
+                  font-size: 40px;
+                }
+              }
+              @media screen and (max-width: 310px ){
+                h1 {
+                  font-size: 20px;
                 }
               }
                } /* custom! */`}</style>
