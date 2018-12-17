@@ -22,12 +22,10 @@ class Services extends React.Component {
                     {this.state.services[key].map((service, servKey) => (
                       <div className="service" key={servKey}>
                         <div className="name">{service.name}</div>
-                        <div className="description">
-                          {service.description}
-                          <div className="time">
-                            <img src="/static/imgs/clock.png" alt="" />
-                            <strong>{service.time}</strong>
-                          </div>
+                        <div className="description">{service.description}</div>
+                        <div className="time">
+                          <img src="/static/imgs/clock.png" alt="" />
+                          <strong>{service.time}</strong>
                         </div>
                       </div>
                     ))}
@@ -47,7 +45,7 @@ class Services extends React.Component {
             background-size: cover;
           }
           section {
-            padding: 100px 0;
+            padding: 140px 0;
           }
 
           h1 {
@@ -92,7 +90,7 @@ class Services extends React.Component {
           }
 
           .service {
-            padding: 20px 40px;
+            padding: 30px 40px;
             width: calc(100% - 80px);
             background: #f9f9f9;
             color: #000;
@@ -119,11 +117,28 @@ class Services extends React.Component {
 
           .description {
             color: #373d3f;
+            height: 76px;
+            overflow: hidden;
+            position: relative;
+          }
+
+          .description:after {
+            content: "";
+            position: absolute;
+            bottom: 25px;
+            right: 0;
+            height: 15px;
+            background: linear-gradient(
+              to bottom,
+              rgba(249, 249, 249, 0) 0%,
+              rgba(249, 249, 249, 1) 100%
+            );
           }
 
           .price {
             font-weight: bold;
           }
+
           .time {
             margin-top: 20px;
             font-size: 18px;
