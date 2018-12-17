@@ -10,26 +10,22 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Stockholm Barber Company</title>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface"
-            rel="stylesheet"
-          />
-          <link rel="icon" type="image/x-icon" href="../static/favicon.ico" />
+          <head>
+            <title>Stockholm Barber Company</title>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <link
+              href="https://fonts.googleapis.com/css?family=Amiri|Anton|Abril+Fatface"
+              rel="stylesheet"
+            />
+            <link rel="icon" type="image/x-icon" href="../static/favicon.ico" />
 
-          <style>{`
+            <style>{`
               @font-face {
-                font-family: Bernard MT;
-                src: url(/static/fonts/BernardMT-Condensed.eot);
-                src: url(/static/fonts/BernardMT-Condensed.eot?#iefix) format(embedded-opentype),
-                    url(/static/fonts/BernardMT-Condensed.woff2) format(woff2),
-                    url(/static/fonts/BernardMT-Condensed.woff) format(woff),
-                    url(/static/fonts/BernardMT-Condensed.ttf) format(truetype),
-                    url(/static/fonts/BernardMT-Condensed.svg#BernardMT-Condensed) format(svg);
+                font-family: Bernard;
+                src: url(/static/fonts/BERNHC.TTF);
                 font-weight: normal;
                 font-style: normal;
               }
@@ -41,7 +37,7 @@ export default class MyDocument extends Document {
                 font-family: Amiri, sans-serif;
               } 
               h1 {
-                font-family: Bernard MT, Amiri, serif;  
+                font-family: Bernard, Amiri, serif;  
                 font-size: 55px;
                 text-align: center;
                 text-transform: uppercase;
@@ -50,7 +46,7 @@ export default class MyDocument extends Document {
               }
 
               a {
-                font-family: Bernard MT ,Amiri, serif;
+                font-family: Bernard ,Amiri, serif;
                 font-size: 18px;
                 font-weight: 200;
               }
@@ -66,6 +62,7 @@ export default class MyDocument extends Document {
                 }
               }
                } /* custom! */`}</style>
+          </head>
         </Head>
         <body className="custom_class">
           <Main />
