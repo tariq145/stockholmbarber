@@ -167,10 +167,16 @@ function (_Document) {
           lineNumber: 12
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("head", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
         },
         __self: this
       }, "Stockholm Barber Company"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -178,7 +184,7 @@ function (_Document) {
         content: "width=device-width, initial-scale=1.0",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -186,7 +192,7 @@ function (_Document) {
         rel: "stylesheet",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -195,32 +201,32 @@ function (_Document) {
         href: "../static/favicon.ico",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("style", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 25
         },
         __self: this
-      }, "\n              @font-face {\n                font-family: Bernard;\n                src: url(/static/fonts/BERNHC.TTF);\n                font-weight: normal;\n                font-style: normal;\n              }\n            \n               body {\n                margin: 0;\n                font-size: 20px;\n                text-align: center;\n                font-family: Amiri, sans-serif;\n              } \n              h1 {\n                font-family: Bernard, Amiri, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard ,Amiri, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n\n              @media screen and (max-width: 410px) {\n                h1 {\n                  font-size: 40px;\n                }\n              }\n              @media screen and (max-width: 310px ){\n                h1 {\n                  font-size: 20px;\n                }\n              }\n               } /* custom! */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
+      }, "\n              @font-face {\n                font-family: Bernard;\n                src: url(/static/fonts/BERNHC.TTF);\n                font-weight: normal;\n                font-style: normal;\n              }\n            \n               body {\n                margin: 0;\n                font-size: 20px;\n                text-align: center;\n                font-family: Amiri, sans-serif;\n              } \n              h1 {\n                font-family: Bernard, Amiri, serif;  \n                font-size: 55px;\n                text-align: center;\n                text-transform: uppercase;\n                margin: 0;\n                margin-bottom: 40px;         \n              }\n\n              a {\n                font-family: Bernard ,Amiri, serif;\n                font-size: 18px;\n                font-weight: 200;\n              }\n\n              @media screen and (max-width: 410px) {\n                h1 {\n                  font-size: 40px;\n                }\n              }\n               } /* custom! */"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
         className: "custom_class",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 62
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 63
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 64
         },
         __self: this
       })));

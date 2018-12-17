@@ -56,11 +56,6 @@ export default class MyDocument extends Document {
                   font-size: 40px;
                 }
               }
-              @media screen and (max-width: 310px ){
-                h1 {
-                  font-size: 20px;
-                }
-              }
                } /* custom! */`}</style>
           </head>
         </Head>

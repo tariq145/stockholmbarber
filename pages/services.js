@@ -117,7 +117,6 @@ class Services extends React.Component {
 
           .description {
             color: #373d3f;
-            height: 76px;
             overflow: hidden;
             position: relative;
           }
