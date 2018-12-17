@@ -184,9 +184,9 @@ const App = () => (
         }
         #index-about img {
           position: absolute;
-          left: -150px;
+          left: -100px;
           transform: rotate(90deg);
-          width: 800px;
+          width: 600px;
         }
 
         @media screen and (max-width: 1250px) {

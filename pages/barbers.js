@@ -30,7 +30,7 @@ const barbers = () => {
           background-size: cover;
         }
         section {
-          padding: 100px 0;
+          padding: 140px 0;
         }
 
         h1 {

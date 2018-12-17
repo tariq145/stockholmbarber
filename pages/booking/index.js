@@ -42,6 +42,9 @@ export default class Booking extends Component {
             background-repeat: no-repeat;
             background-size: cover;
           }
+          section {
+            padding: 140px 0;
+          }
 
           h1 {
             color: #fff;
