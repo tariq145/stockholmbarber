@@ -27,6 +27,7 @@ class Services extends React.Component {
                           <img src="/static/imgs/clock.png" alt="" />
                           <strong>{service.time}</strong>
                         </div>
+                        <div className="price">{service.pris}</div>
                       </div>
                     ))}
                   </div>
@@ -97,6 +98,7 @@ class Services extends React.Component {
             text-align: left;
             margin: 0 auto;
             margin-bottom: 25px;
+            position: relative;
           }
 
           .service:last-of-type {
@@ -136,6 +138,10 @@ class Services extends React.Component {
 
           .price {
             font-weight: bold;
+            font-size: 18px;
+            position: absolute;
+            right: 40px;
+            bottom: 30px;
           }
 
           .time {
@@ -165,42 +171,42 @@ let staticServices = {
       description:
         "Börja med ett ordentligt samråd, och sedan använda traditionella barberingsmetoder som används för att skräddarsy kundernas önskade blick, preparerade med premiumhårprodukter, och slutar med en klassisk rakning på nacken.",
       time: "45min",
-      pris: "480kr"
+      pris: "480 kr"
     },
     {
       name: "Buzz Cut",
       description:
         "Börja med en konsultation, sedan tar vi samma längd över hela huvudet med en klippmaskin, följt av att detaljera de yttre linjerna i hårklippningen och nacken med rak rakhyvel.",
       time: "15min",
-      pris: ""
+      pris: "200 kr"
     },
     {
       name: "Skäggtrim",
       description:
         "Konsultation, Trimning av skägget till önskad längd, varm handduk och definiering av skägglinjen med ett rakblad.",
       time: "30min",
-      pris: "300kr"
+      pris: "300 kr"
     },
     {
       name: "Slätrakning",
       description:
         "Konsultation, avkopplande handdukhäftning, förskärningsolja och varm skum från en exfolierande badgerhårborste. Därefter går rakbladed med kornet och tar bort eventuella stubbar. Färdig med en uppfriskande kyld handdukslindning och en Premium After-Shave lotion.",
       time: "30min",
-      pris: "400kr"
+      pris: "400 kr"
     },
     {
       name: "Klippning + Skäggtrim",
       description:
         "Börja med en ordentlig konsultation och sedan använda traditionella barberingsmetoder som används för att skräddarsy det önskade utseendet, prepareras med alla premiumhår och skäggprodukter, och slutar med en klassisk rakhyvel raka runt halsen och nackehalsen.",
       time: "1h 15min",
-      pris: "700kr"
+      pris: "700 kr"
     },
     {
       name: "Klippning + Slätrakning",
       description:
         "Det här är vår take på den klassiska frisyren och affärsmanens look.",
       time: "1h 30min",
-      pris: "800kr"
+      pris: "800 kr"
     }
   ],
   special: [
@@ -208,19 +214,19 @@ let staticServices = {
       name: "Vaxning Öron-Kind",
       description: "En behandling som touchar upp och framhäver dig",
       time: "15min",
-      pris: "120kr"
+      pris: "120 kr"
     },
     {
       name: "Trådning",
       description: "Trådning.",
       time: "15min",
-      pris: "120kr"
+      pris: "120 kr"
     },
     {
       name: "Styling",
       description: "Tar fram det bästa ur din frisyr",
       time: "15min",
-      pris: "120kr"
+      pris: "120 kr"
     }
   ]
 };
