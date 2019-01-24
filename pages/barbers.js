@@ -1,5 +1,20 @@
 import Layout from "../components/Layout";
 
+const barberInfo = [
+  {
+    name: "José Rojas 'J. Sax'",
+    description:
+      "Han fann sin passion i historien om barberare genom tiderna, han kände då att han hittat sitt kall. Han har nu arbetat de senaste 12 åren som barberare och är lika inspirerad som sin första dag i yrket.",
+    url: "/static/imgs/barber21.jpg"
+  },
+  {
+    name: "Ghani Amor Chaoui",
+    description:
+      "Blev kär i barberandet sedan ung ålder, det är som en konst för mig. Jag har varit barberare i 28år.",
+    url: "/static/imgs/barber1.jpg"
+  }
+];
+
 const barbers = () => {
   return (
     <Layout>
@@ -8,14 +23,17 @@ const barbers = () => {
           <h1>Våra barberare</h1>
           <div className="container">
             <div className="barber-container">
-              <div className="barber">
-                <div className="img" />
-                <div className="name">Ghani Amor Chaoui</div>
-                <div className="description">
-                  Blev kär i barberandet sedan ung ålder, det är som en konst
-                  för mig. Jag har varit barberare i 28år.
+              {barberInfo.map(barber => (
+                <div className="barber">
+                  {console.log(barber.name)}
+                  <div
+                    className="img"
+                    style={{ backgroundImage: `url(${barber.url})` }}
+                  />
+                  <div className="name">{barber.name}</div>
+                  <div className="description">{barber.description}</div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -69,8 +87,21 @@ const barbers = () => {
           max-width: 450px;
         }
 
+        @media screen and (max-width: 1050px) {
+          .barber-container {
+            flex-direction: column;
+          }
+          .barber {
+            margin: 0 auto;
+            margin-top: 70px;
+          }
+
+          .barber:first-of-type {
+            margin-top: 0;
+          }
+        }
+
         .img {
-          background-image: url(/static/imgs/barber1.jpg);
           background-position: top;
           background-repeat: no-repeat;
           background-size: cover;
@@ -95,4 +126,5 @@ const barbers = () => {
     </Layout>
   );
 };
+
 export default barbers;
