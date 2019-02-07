@@ -24,14 +24,14 @@ const App = () => (
             </p>
           </div>
 
-          <Link href="booking">
-            <button style={{ fontFamily: "Bernard MT" }}>Boka nu</button>
+          <Link href="https://stockholmbarber.simplybook.it/v2/#book">
+            <a>Boka Nu</a>
           </Link>
         </div>
       </section>
       {/* <section id="index-barbers">
         <div className="container">
-          <h1>Barberare</h1>
+          <h1>Barberare</h1>  
           <div className="barbers">
             <div />
             <div />
@@ -188,6 +188,12 @@ const App = () => (
 
         .phone {
           font-size: 45px;
+        }
+        #index-about a {
+          padding: 20px 40px;
+          text-decoration: none;
+          color: white;
+          background: black;
         }
         #index-about img {
           position: absolute;

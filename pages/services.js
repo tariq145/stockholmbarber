@@ -1,12 +1,76 @@
-import React from "react";
 import Layout from "../components/Layout";
+import $ from "jquery";
 
 class Services extends React.Component {
   state = {
-    services: staticServices
+    services: {}
   };
 
-  componentDidMount() {}
+  async componentDidMount() {
+    let tokenRequest = {
+      jsonrpc: "2.0",
+      method: "getToken",
+      params: [
+        "stockholmbarber",
+        "d7502608fde2546f82521763aee405e88d6b8035fa7367224022dfbf4308070c"
+      ],
+      id: 2
+    };
+
+    let { result: token } = await $.ajax({
+      url: "https://user-api.simplybook.me/login",
+      contentType: "application/json",
+      type: "POST",
+      processData: false,
+      dataType: "json",
+      cache: false,
+      data: JSON.stringify(tokenRequest),
+      headers: {},
+      async: true
+    });
+
+    let userRequest = {
+      jsonrpc: "2.0",
+      method: "getEventList",
+      params: [],
+      id: 2
+    };
+
+    let { result: services } = await $.ajax({
+      url: "https://user-api.simplybook.me/",
+      contentType: "application/json",
+      type: "POST",
+      processData: false,
+      dataType: "json",
+      cache: false,
+      data: JSON.stringify(userRequest),
+      headers: {
+        "X-Company-Login": "stockholmbarber",
+        "X-Token": token
+      },
+      async: true
+    });
+
+    let sortedServices = this.sortServices(services);
+
+    this.setState({ services: sortedServices });
+  }
+
+  sortServices = raw => {
+    let ret = {
+      vanlig: [],
+      special: []
+    };
+    Object.keys(raw).map(key => {
+      if (raw[key].categories[0] == "1") {
+        ret["vanlig"].push(raw[key]);
+      } else {
+        ret["special"].push(raw[key]);
+      }
+    });
+
+    return ret;
+  };
 
   render() {
     return (
@@ -25,9 +89,11 @@ class Services extends React.Component {
                         <div className="description">{service.description}</div>
                         <div className="time">
                           <img src="/static/imgs/clock.png" alt="" />
-                          <strong>{service.time}</strong>
+                          <strong>{service.duration} min</strong>
                         </div>
-                        <div className="price">{service.pris}</div>
+                        <div className="price">
+                          {parseInt(service.price)} kr
+                        </div>
                       </div>
                     ))}
                   </div>
