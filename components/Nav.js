@@ -12,7 +12,7 @@ const Nav = () => (
       <Link href="/services">
         <a>Tjänster</a>
       </Link>
-      <Link href="/booking">
+      <Link href="https://stockholmbarber.simplybook.it/v2/#book">
         <a>Bokning</a>
       </Link>
     </div>
