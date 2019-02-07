@@ -73,10 +73,17 @@ const App = () => (
             <p>
               <strong>Öppet tider:</strong>
               <br />
-              <i>Mon-Fre : 11-18</i>
+              <i>Mon-Lör : 11-20</i>
             </p>
             <p>
-              <i>Sat-Sun : 11-16</i>
+              <i>Sön : Stängt</i>
+            </p>
+            <p>
+              {" "}
+              <i>
+                Lönings Helg (Fre&Lördag): 11 - Till sista kund droppar in.{" "}
+                <b>(Event)</b>
+              </i>
             </p>
           </div>
 
