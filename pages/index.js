@@ -178,6 +178,7 @@ const App = () => (
         .text {
           max-width: 550px;
           margin: 0 auto;
+          margin-bottom: 60px;
         }
 
         .img {
@@ -189,12 +190,14 @@ const App = () => (
         .phone {
           font-size: 45px;
         }
+
         #index-about a {
           padding: 20px 40px;
           text-decoration: none;
           color: white;
           background: black;
         }
+
         #index-about img {
           position: absolute;
           left: -100px;
