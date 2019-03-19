@@ -66,7 +66,7 @@ const App = () => (
                 Kom förbi:
                 <br />
                 <span style={{ fontSize: "25px" }}>
-                  Hornsgatan 97, 117 26 Stockholm
+                  Hornsgatan 87, 117 26 Stockholm
                 </span>
               </strong>
             </p>
