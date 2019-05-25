@@ -53,40 +53,40 @@ const App = () => (
       <section id="index-contact">
         <div className="container">
           <h1>kontakta oss</h1>
-
-          <div className="phone">(08)-428 611 32</div>
+          Telefon : 08-428 611 32
+          <br />
+          Email : Info@Stockholmbarber.com
           <div className="text">
-            <p>Tveka inte att höra av er till oss angående frågor.</p>
+            <p>Tveka inte att höra av er till oss.</p>
             <p>
               Stockholm Barber company är en plats för dig att koppla av och ta
               de lungt, ett andra hem.
             </p>
             <p>
-              <strong>
-                Kom förbi:
-                <br />
-                <span style={{ fontSize: "25px" }}>
-                  Hornsgatan 87, 117 26 Stockholm
-                </span>
-              </strong>
+              Kom förbi:
+              <br />
+              Hornsgatan 87, 117 26 Stockholm
             </p>
             <p>
               <strong>Öppet tider:</strong>
-              <br />
-              <i>Mon-Lör : 11-20</i>
-            </p>
-            <p>
-              <i>Sön : Stängt</i>
-            </p>
-            <p>
-              {" "}
-              <i>
-                Lönings Helg (Fre&Lördag): 11 - Till sista kund droppar in.{" "}
-                <b>(Event)</b>
-              </i>
+              <span style={{ lineHeight: "10px" }}>
+                <br />
+                Måndag : 11.00 - 20.00
+                <br />
+                Tisdag : 11.00 - 20.00
+                <br />
+                Onsdag : 11.00 - 20.00
+                <br />
+                Torsdag : 11.00- 20.00
+                <br />
+                Fredag : 11.00 - 20.00
+                <br />
+                Lördag : 11.00 - 20.00
+                <br />
+                Söndag : Stängt
+              </span>
             </p>
           </div>
-
           <div className="social">
             <a href="https://www.instagram.com/stockholmbarber/">
               <img src="/static/imgs/ig.png" alt="" />
