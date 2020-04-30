@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-extend": "^2.0.3",
     "next": "^7.0.2",
     "react": "^16.6.3",
